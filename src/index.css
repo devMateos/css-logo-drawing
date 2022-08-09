@@ -15,12 +15,33 @@ body {
     display: flex;
 }
 
+.letters {
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.letter {
+    height: 100%;
+    width: 30%;
+    background-color: #2b2a29;
+}
+.c {
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 45% 33%, 45% 67%, 100% 67%, 100% 100%, 0 100%);
+}
+.s {
+    clip-path: polygon(0 0, 100% 0, 100% 33%, 55% 33%, 100% 66%, 100% 100%, 0 100%, 0 66%, 45% 66%, 0 33%);
+}
+
 .logo {
     height: 700px;
     width: 550px;
     background-color: #214ce5;
     clip-path: polygon(0 0, 550px 0, 500px 600px, 275px 700px, 50px 600px);
     position: absolute;
+    top: 150px;
 }
 
 .right-side {
